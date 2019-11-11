@@ -1,0 +1,52 @@
+.about_studio {
+  margin: 8em 10em;
+  display: flex;
+  justify-content: center;
+}
+.about_studio img {
+  width: 244px;
+  height: 186px;
+}
+.about_studio h2 {
+  padding-top: 1.8em;
+  padding-right: 15em;
+  font-size: 2em;
+}
+.about_studio p {
+  margin-left: 15em;
+  font-size: 2em;
+}
+.studio_container {
+  margin: 8em 10em;
+  display: flex;
+  justify-content: space-between;
+}
+.studio_container .item {
+  width: 500px;
+  height: 400px;
+}
+.studio_container .item img {
+  padding: 10px 5px;
+}
+.studio_container .item h3 {
+  font-size: 2em;
+  padding-left: 10px;
+}
+.studio_container .item p {
+  font-size: 1.5em;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.studio_container .item3 {
+  background-color: #f6ae48;
+}
+.studio_container .item3 button {
+  color: white;
+  font-size: 1.5em;
+  padding: 0.2em 1em;
+  margin-top: 10px;
+  margin-left: 10px;
+  border: 2px solid white;
+  background-color: inherit;
+}

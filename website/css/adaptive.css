@@ -1,0 +1,26 @@
+.adaptive {
+  margin-top: 4em;
+  margin-bottom: 4em;
+  display: flex;
+  justify-content: space-between;
+}
+.adaptive .adaptive_text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: 5em;
+  width: 40%;
+  text-align: center;
+}
+.adaptive .adaptive_text h2 {
+  font-size: 3em;
+  text-transform: uppercase;
+}
+.adaptive .adaptive_text p {
+  text-align: center;
+  padding-top: 1em;
+  line-height: 2em;
+  font-size: 1.5em;
+  width: 60%;
+}

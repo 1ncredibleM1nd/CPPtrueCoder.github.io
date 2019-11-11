@@ -1,0 +1,33 @@
+.metrics {
+  margin-top: 10em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.metrics .met_text {
+  padding-left: 2em;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.metrics .met_text h1 {
+  font-size: 3em;
+  text-transform: uppercase;
+}
+.metrics .met_text p {
+  padding-top: 1em;
+  height: 50%;
+  width: 70%;
+  font-size: 2em;
+  text-align: center;
+}
+.metrics .met_container {
+  padding-top: 3em;
+  padding-left: 20em;
+  width: 70%;
+}
+.metrics img {
+  width: 45%;
+}

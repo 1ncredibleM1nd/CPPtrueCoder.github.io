@@ -1,0 +1,23 @@
+
+@import url("css/animate.css");
+
+@import url("css/header.css");
+@import url("css/navigation.css");
+@import url("css/about_studio.css");
+@import url("css/development.css");
+@import url("css/metrics.css");
+@import url("css/tradein.css");
+@import url("css/adaptive.css");
+@import url("css/works.css");
+@import url("css/footer.css");
+
+
+*{
+	font-family: 'Roboto', sans-serif;
+	padding: 0;
+	margin: 0;
+}
+body{
+background:  #ffffff;
+
+}

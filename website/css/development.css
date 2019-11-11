@@ -1,0 +1,89 @@
+.credo {
+  position: relative;
+  height: 565px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: url(../img/credo.jpg);
+  background-size: cover;
+  z-index: -3;
+}
+.credo h1 {
+  font-size: 3em;
+  color: white;
+  text-transform: uppercase;
+}
+.credo p {
+  padding-top: 40px;
+  display: block;
+  width: 70%;
+  color: white;
+  font-size: 2em;
+  text-align: center;
+}
+.development {
+  margin: 5em 0;
+}
+.development .bck_dev {
+  margin-top: -4em;
+  position: absolute;
+  width: 666px;
+  height: 526px;
+  background: url(../img/develop.jpg);
+  z-index: -2;
+}
+.development .bck_dev h3 {
+  color: white;
+  font-size: 3em;
+  text-align: center;
+  margin-top: 25%;
+}
+.development .development_container {
+  padding-top: 15%;
+  display: flex;
+  justify-content: space-around;
+}
+.development .dev_item {
+  color: white;
+  width: 450px;
+  height: 350px;
+}
+.development .dev_item h2 {
+  display: block;
+  width: 400px;
+  height: 100px;
+  border-bottom: 1px solid white;
+  font-size: 45px;
+  margin-top: 30%;
+  margin-left: 5%;
+}
+.development .dev_item button {
+  color: white;
+  font-size: 25px;
+  padding: 10px 30px;
+  background: none;
+  margin-left: 5%;
+  margin-top: 15px;
+}
+.development .item1 {
+  background: url(../img/IMG_3646.jpg);
+  background-size: cover;
+}
+.development .item1 button {
+  border: 2px solid #00b9e7;
+}
+.development .item2 {
+  background: url(../img/Free-04.jpg);
+  background-size: cover;
+}
+.development .item2 button {
+  border: 2px solid #ffcb00;
+}
+.development .item3 {
+  background: url(../img/заказ.jpg);
+  background-size: cover;
+}
+.development .item3 button {
+  border: 2px solid #66bf0d;
+}

@@ -1,0 +1,32 @@
+.tradein {
+  margin-top: 3em;
+  background: url(../img/cover_1463414169-1140x570.jpg);
+  background-size: cover;
+  color: white;
+  padding-bottom: 2em;
+}
+.tradein h1 {
+  padding-top: 1em;
+  text-align: center;
+  font-size: 3em;
+  text-transform: uppercase;
+}
+.tradein .tradein_container {
+  margin-top: 5em;
+  display: flex;
+  justify-content: space-around;
+}
+.tradein .tradein_container h3 {
+  padding-left: 10px;
+  font-size: 2em;
+  text-transform: uppercase;
+  display: inline-block;
+}
+.tradein .tradein_container .tradein_item {
+  width: 470px;
+}
+.tradein .tradein_container .tradein_item p {
+  line-height: 2em;
+  padding-top: 2em;
+  font-size: 1.5em;
+}
