@@ -1,0 +1,54 @@
+header {
+  margin-top: 3em;
+  margin-bottom: 1em;
+  text-align: center;
+}
+header p {
+  color: #858688;
+}
+header nav {
+  margin-top: 1.5em;
+}
+header .top {
+  width: 80%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+header a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #858688;
+  margin-right: 2em;
+  font-size: 1em;
+}
+header a:hover {
+  border-bottom: 1px solid #858688;
+}
+header button {
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-gradient(linear, left top, right top, from(#5c258d), to(#4389a2));
+  background: linear-gradient(to right, #5c258d, #4389a2);
+  border: none;
+  font-size: 1em;
+  font-weight: bolder;
+  color: white;
+  border-radius: 1em;
+  padding: 0.5em 1em;
+}
+header h3 {
+  font-size: 2em;
+  color: #858688;
+  display: inline-block;
+}
+header h3 p {
+  display: inline-block;
+  background: -webkit-gradient(linear, left top, right top, from(#5c258d), to(#4389a2));
+  background: linear-gradient(to right, #5c258d, #4389a2);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

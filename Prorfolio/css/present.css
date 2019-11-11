@@ -1,0 +1,74 @@
+.carousel {
+ 
+
+
+
+}
+.carousel .present {
+  
+  background: url(../img/header.jpg) no-repeat;
+  background-size: cover;
+  padding-bottom: 45em;
+  margin-bottom: 1em;
+
+}
+.carousel .present .text {
+  position: absolute;
+  text-align: center;
+  margin-top: 3%;
+  margin-left: 10%;
+}
+.carousel .present .text h1 {
+  font-size: 3em;
+  color: #6f6f6e;
+}
+.carousel .present .text h2 {
+  padding-right: 0.5em;
+  font-size: 36px;
+  color: #6f6f6e;
+  display: inline-block;
+}
+.carousel .present .text .numbers {
+  font-size: 40px;
+  color: #fc7c7f;
+}
+.carousel .present .text button {
+  font-size: 1.5em;
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-linear-gradient(left, #c33764, #1d2671);
+  background: -o-linear-gradient(left, #c33764, #1d2671);
+  background: linear-gradient(to right, #c33764, #1d2671);
+  padding: 0.5em 1em;
+  border: none;
+  border-radius: 1em;
+  margin-top: 2em;
+  color: white;
+}
+.carousel .pres-2 {
+   
+  background: url(../img/responsive-web-square.jpg) no-repeat;
+  background-size: cover;
+  padding-bottom: 45em;
+  margin-bottom: 1em;
+;
+}
+.carousel .pres-2 .text {
+  position: absolute;
+  text-align: center;
+  margin-top: 5%;
+  margin-left: 20%;
+}
+.carousel .pres-2 .text h1 {
+  font-size: 4em;
+  color: #6f6f6e;
+}
+.carousel .pres-2 .text h2 {
+  padding-right: 0.5em;
+  font-size: 36px;
+  color: #6f6f6e;
+  display: inline-block;
+}
+.carousel .pres-2 .text .numbers {
+  font-size: 40px;
+  color: #fc7c7f;
+}
