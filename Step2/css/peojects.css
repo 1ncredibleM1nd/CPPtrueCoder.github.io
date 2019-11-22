@@ -1,0 +1,37 @@
+.working {
+  margin-top: 2em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.working .item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 320px;
+  height: 320px;
+  background-color: #4e5d6a;
+  margin: 1px 1px;
+  text-align: center;
+}
+.working .item h3 {
+  color: white;
+  font-size: 2em;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+.working .item p {
+  font-size: 20px;
+  color: #95aeb4;
+}
+.working .item:hover {
+  background-color: #4e5d6f;
+}
+.working .uppers {
+  display: flex;
+}
+.working .lower {
+  display: flex;
+}

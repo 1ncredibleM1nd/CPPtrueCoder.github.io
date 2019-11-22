@@ -1,0 +1,31 @@
+.main_clients {
+  width: 100%;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0 10px 0;
+  color: black;
+  text-align: center;
+  text-transform: uppercase;
+}
+.main_clients #star {
+  display: inline-block;
+  padding-right: 20px;
+  margin-right: 40px;
+}
+.main_clients .clients {
+  display: flex;
+  width: 80%;
+}
+.main_clients .clients img {
+  width: 50%;
+  height: 50%;
+}
+.main_clients h1 {
+  width: 76%;
+  margin: 0 auto;
+  margin-bottom: 1.5em;
+  margin-top: 30px;
+  color: white;
+}
