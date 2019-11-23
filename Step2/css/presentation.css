@@ -1,6 +1,6 @@
 .presentation {
-  height: 100% !important;
-  width: 100% !important;
+  height: 100% ;
+  width: 100% ;
 }
 .presentation .presentation_item {
   width: 100%;
@@ -17,7 +17,7 @@
   font-size: 3em;
 }
 .presentation .item1 {
-  background: url("../img/IMG_4317.jpg") no-repeat;
+  background: url("../img/bkg_header.jpg") no-repeat;
   background-size: cover;
 }
 .presentation .item2 {
