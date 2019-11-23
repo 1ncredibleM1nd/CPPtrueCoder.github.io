@@ -1,0 +1,17 @@
+.text_about {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.text_about h1 {
+  color: red;
+  font-size: 3em;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+.text_about p {
+  font-size: 1.8em;
+  color: white;
+  width: 80%;
+}
