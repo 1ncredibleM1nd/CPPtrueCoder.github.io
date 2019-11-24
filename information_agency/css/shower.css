@@ -135,9 +135,10 @@
 }
 .information .showmore {
   border: none;
-  background: orange;
+  background: #e94e38;
   border-radius: 2em;
   text-transform: uppercase;
   padding: 1em 1em;
   margin-bottom: 1em;
+  color: white;
 }

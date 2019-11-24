@@ -1,0 +1,53 @@
+.advantagers { 
+	text-align:center;
+	background-color:#f3f1f2;
+	padding-bottom:2em;
+h2{
+	padding-top:2em;
+color: #727579;
+text-transform:uppercase;
+}
+p{
+
+}
+.advantagers_container{
+	margin-top:2em;
+	display:flex;
+	justify-content: center;
+
+	.item{
+		position:relative;
+		cursor: pointer;
+		display:flex;
+		justify-content:center;
+		align-items:center;
+		width:55px;
+	height:55px;
+	border-radius:50%;
+	background-color:#b3bdbe;
+	margin-right: 30px;
+
+	&::after{
+		position:absolute;
+	content:'';
+	width:30px;
+	height:1px;
+	left:100%;
+	background-color:grey;
+	
+	}
+	
+	img{
+		width:50%;
+		height:50%;
+	}
+	}
+	.item4::after{
+		background-color:transparent;
+
+	}
+	.item:hover{
+		background-color:green;
+
+	}
+ }}

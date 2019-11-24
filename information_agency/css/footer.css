@@ -1,13 +1,15 @@
 footer {
   background: url("../img/Layer 4 copy.png") no-repeat;
   background-size: cover;
+}
+footer h2 {
+  margin-top: 100px;
+}
+footer .up {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
-footer .up {
-  margin-top: 150px;
   text-align: center;
   color: white;
   text-transform: uppercase;
@@ -42,4 +44,38 @@ footer .up .subscribe #button {
 }
 footer .up .subscribe #button:hover {
   background-color: red;
+}
+footer .lower {
+  padding-top: 120px;
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+footer .lower .logotype {
+  width: 154px;
+  height: 45px;
+  background: url("../img/Vector Smart Object.png");
+}
+footer .lower ul {
+  display: flex;
+  justify-content: center;
+}
+footer .lower ul li {
+  list-style: none;
+}
+footer .lower ul li a {
+  color: white;
+  text-transform: uppercase;
+  text-decoration: none;
+  margin-right: 30px;
+}
+footer .lower ul li a:hover {
+  color: #e94e38;
+}
+footer .lower .footer_socials img {
+  margin-right: 20px;
+}
+footer .lower .footer_socials a:hover {
+  opacity: .5;
 }

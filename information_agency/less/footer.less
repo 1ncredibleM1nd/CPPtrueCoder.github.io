@@ -2,12 +2,15 @@ footer{
 	background:url("../img/Layer 4 copy.png") no-repeat;
 	background-size:cover;
 	
-	display:flex;
+	h2{
+		margin-top: 100px;
+	}
+	.up{
+		display:flex;
 	flex-direction:column;
 	justify-content:center;
 	align-items:center;
-	.up{
-		margin-top: 150px;
+		
 		text-align: center;
 		color:white;
 		text-transform:uppercase;
@@ -43,6 +46,43 @@ footer{
 					&:hover{
 						background-color:red;
 					}
+				}
+		}
+	}
+	.lower{
+		padding-top:120px;
+		padding-bottom:20px;
+		display:flex;
+		justify-content:space-around;
+		align-items:center;
+		.logotype{
+			width:154px;
+		height: 45px;
+			background: url("../img/Vector Smart Object.png");
+		}
+		ul{
+			display:flex;
+			justify-content:center;
+			li{
+				list-style: none;
+				a{
+					color:white;
+					text-transform:uppercase;
+					text-decoration: none;
+					margin-right: 30px;
+				&:hover{
+					color:#e94e38;
+				}
+				}
+
+			}
+		}
+		.footer_socials{
+			img{
+				margin-right: 20px;
+			}
+			a:hover{
+					opacity: .5;
 				}
 		}
 	}

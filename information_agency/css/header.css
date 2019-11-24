@@ -42,8 +42,9 @@ header .wrapper .search_login #seacrh {
   border: none;
   width: 45px;
   height: 45px;
-  background: url("../img/icons8-поиск-32.png");
-  background-size: contain;
+  background: url("../img/icons8-поиск-32.png") no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 header .wrapper .search_login #login {
   cursor: pointer;
