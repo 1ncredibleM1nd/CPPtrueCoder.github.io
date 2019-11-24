@@ -1,0 +1,60 @@
+header .wrapper {
+  position: fixed;
+  z-index: 99;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+}
+header .wrapper .logo {
+  margin-left: 100px;
+  width: 154px;
+  height: 45px;
+  background: url("../img/Vector Smart Object.png");
+}
+header .wrapper .menu {
+  background-color: #ffffff;
+}
+header .wrapper .menu nav {
+  text-transform: uppercase;
+}
+header .wrapper .menu nav ul {
+  display: flex;
+}
+header .wrapper .menu nav li {
+  margin-right: 25px;
+  list-style: none;
+}
+header .wrapper .menu nav a {
+  text-decoration: none;
+  color: #c7d0d0;
+}
+header .wrapper .menu nav a:hover {
+  color: #e94e38;
+}
+header .wrapper .search_login {
+  display: flex;
+  justify-content: space-around;
+}
+header .wrapper .search_login #seacrh {
+  cursor: pointer;
+  border: none;
+  width: 45px;
+  height: 45px;
+  background: url("../img/icons8-поиск-32.png");
+  background-size: contain;
+}
+header .wrapper .search_login #login {
+  cursor: pointer;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: none;
+  background-color: #e94e38;
+  padding-right: 100px;
+}
+header .wrapper .search_login #login img {
+  padding-right: 10px;
+}
